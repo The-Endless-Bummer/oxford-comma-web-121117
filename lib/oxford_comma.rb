@@ -5,7 +5,7 @@ def oxford_comma(array)
     output = array.join(", ")
     output << ", and #{last_word}"
   elsif
-    array.lenth == 2
+    array.length == 2
     output = array.join(' and ')
   end
   output
