@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  output = array.to_s
+  output = array.join
   if array.length > 1
     last_word = array.pop
     output = array.join(", ")
