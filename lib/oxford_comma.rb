@@ -1,3 +1,5 @@
 def oxford_comma(array)
-  array.join(", ")
+  last_word = array.pop
+  output = array.join(", ")
+  output << " and #{last_word}"
 end
